@@ -21,7 +21,7 @@ func TestRun(t *testing.T) {
 
 	t.Run("-1 + -1", func(t *testing.T) {
 		res := task1.RunSum(-1, -1)
-		expected := -2
+		expected := -3
 		assert.Equal(t, expected, res)
 	})
 }
