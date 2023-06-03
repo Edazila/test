@@ -6,5 +6,7 @@ import (
 )
 
 func main() {
+	fmt.Println("start")
 	fmt.Println(task1.RunSum(1, 2))
+
 }
