@@ -1,9 +1,10 @@
 package tests
 
 import (
+	"testing"
+
 	"github.com/Edazila/test/lesson1/task1"
 	"github.com/stretchr/testify/assert"
-	"testing"
 )
 
 func TestRun(t *testing.T) {
